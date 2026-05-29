@@ -227,22 +227,35 @@ st.markdown(f"""
 # ── Current conditions ────────────────────────────────────
 st.markdown("<div class='section-heading'>Current Conditions <span class='section-note'>— live reading right now</span></div>", unsafe_allow_html=True)
 
-cols = st.columns(6, gap="small")
-for i, row in current_df.iterrows():
+cards_html = '<div class="city-grid">'
+
+for _, row in current_df.iterrows():
     icon, label = simplify(row["condition"])
     advice = tip(row["condition"], row["temperature"])
-    with cols[i % 6]:
-        st.markdown(f"""
-        <div class="city-card">
-            <div class="city-card-top">
-                <div class="city-label">{row['city']}</div>
-                <div class="city-icon">{icon}</div>
-            </div>
-            <div class="city-temp">{row['temperature']}°C</div>
-            <div class="city-cond">{label} &nbsp;·&nbsp; {row['humidity']}% humidity</div>
-            <div class="city-tip">{advice}</div>
+
+    cards_html += f"""
+    <div class="city-card">
+        <div class="city-card-top">
+            <div class="city-label">{row['city']}</div>
+            <div class="city-icon">{icon}</div>
         </div>
-        """, unsafe_allow_html=True)
+        <div class="city-temp">{row['temperature']}°C</div>
+        <div class="city-cond">
+            {label} · {row['humidity']}% humidity
+        </div>
+        <div class="city-tip">{advice}</div>
+    </div>
+    """
+
+cards_html += "</div>"
+
+st.markdown(cards_html, unsafe_allow_html=True)
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 10px;
+}
 
 
 # ── 7-day forecast ────────────────────────────────────────
