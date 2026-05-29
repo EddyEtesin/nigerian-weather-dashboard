@@ -105,6 +105,12 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
     padding: 8px 10px;
     line-height: 1.4;
 }
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 10px;
+}
 
 /* Forecast cards */
 .fc-card {
@@ -225,7 +231,11 @@ st.markdown(f"""
 
 
 # ── Current conditions ────────────────────────────────────
-st.markdown("<div class='section-heading'>Current Conditions <span class='section-note'>— live reading right now</span></div>", unsafe_allow_html=True)
+st.markdown(
+    "<div class='section-heading'>Current Conditions "
+    "<span class='section-note'>— live reading right now</span></div>",
+    unsafe_allow_html=True
+)
 
 cards_html = '<div class="city-grid">'
 
@@ -250,13 +260,6 @@ for _, row in current_df.iterrows():
 cards_html += "</div>"
 
 st.markdown(cards_html, unsafe_allow_html=True)
-.city-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 16px;
-    margin-top: 10px;
-}
-
 
 # ── 7-day forecast ────────────────────────────────────────
 st.markdown("<div class='section-heading'>7-Day Forecast <span class='section-note'>— daily high / low range</span></div>", unsafe_allow_html=True)
