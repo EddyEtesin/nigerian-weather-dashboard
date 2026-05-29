@@ -17,60 +17,57 @@ st.markdown("""
 html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !important; }
 #MainMenu, footer, header { visibility: hidden; }
 .stApp { background: #f0f4f8; }
-.block-container {
-    padding: 1rem 1.5rem 2rem !important;
-    max-width: 100%;
-}
+.block-container { padding: 2.5rem 3.5rem 4rem !important; max-width: 100% !important; }
 
+/* ── Header ── */
 .pg-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 40px;
+    margin-bottom: 36px;
 }
-.pg-title {
-    font-size: 26px;
-    font-weight: 600;
-    color: #0f172a;
-    letter-spacing: -0.03em;
-}
-.pg-updated {
-    font-size: 12px;
-    color: #94a3b8;
-    font-family: 'DM Mono', monospace;
-}
+.pg-title { font-size: 24px; font-weight: 600; color: #0f172a; letter-spacing: -0.03em; }
+.pg-updated { font-size: 11px; color: #94a3b8; font-family: 'DM Mono', monospace; }
+
+/* ── Section labels ── */
 .section-heading {
     font-size: 10px;
     font-weight: 600;
     color: #94a3b8;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    margin: 24px 0 12px;
+    margin: 36px 0 14px;
 }
 .section-note {
-    font-size: 11px;
-    color: #94a3b8;
+    font-size: 10px;
+    color: #b0bec5;
     font-style: italic;
-    margin-left: 10px;
+    margin-left: 8px;
     font-weight: 400;
     letter-spacing: 0;
     text-transform: none;
 }
 
-/* Current city cards */
+/* ── City grid — pure CSS, no Streamlit columns ── */
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 14px;
+}
 .city-card {
     background: #ffffff;
-    border-radius: 16px;
-    padding: 18px;
+    border-radius: 18px;
+    padding: 22px 20px 20px;
     border: 1px solid #e2e8f0;
-    height: 100%;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 .city-card-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
 }
 .city-label {
     font-size: 10px;
@@ -79,48 +76,50 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-.city-icon { font-size: 28px; line-height: 1; }
+.city-icon { font-size: 26px; line-height: 1; }
 .city-temp {
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 300;
     color: #0f172a;
     font-family: 'DM Mono', monospace;
     letter-spacing: -0.04em;
     line-height: 1;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 .city-cond {
     font-size: 12px;
     color: #64748b;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 .city-tip {
-    font-size: 10px;
+    font-size: 11px;
     color: #2563eb;
     background: #eff6ff;
     border-radius: 10px;
-    padding: 8px 10px;
-    line-height: 1.4;
-}
-.city-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 16px;
-    margin-top: 10px;
+    padding: 9px 12px;
+    line-height: 1.55;
+    margin-top: auto;
 }
 
-/* Forecast cards */
+/* ── Forecast grid — pure CSS ── */
+.fc-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 12px;
+    margin-top: 4px;
+}
 .fc-card {
     background: #ffffff;
-    border-radius: 18px;
+    border-radius: 16px;
     border: 1px solid #e2e8f0;
-    padding: 22px 14px 18px;
+    padding: 20px 12px 16px;
     text-align: center;
-    height: 100%;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .fc-card.fc-today {
     background: #0f172a;
@@ -132,32 +131,32 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: #94a3b8;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
 }
 .fc-today .fc-day { color: #475569; }
 .fc-date {
-    font-size: 11px;
+    font-size: 10px;
     color: #cbd5e1;
     font-family: 'DM Mono', monospace;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 .fc-today .fc-date { color: #334155; }
-.fc-ico { font-size: 30px; margin-bottom: 10px; }
+.fc-ico { font-size: 28px; margin-bottom: 8px; }
 .fc-cond {
     font-size: 11px;
     color: #64748b;
-    min-height: 34px;
-    line-height: 1.6;
-    margin-bottom: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    min-height: 32px;
 }
 .fc-today .fc-cond { color: #64748b; }
 .fc-temps {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 8px;
     font-size: 13px;
     font-family: 'DM Mono', monospace;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .t-hi { color: #f97316; font-weight: 500; }
 .t-lo { color: #3b82f6; font-weight: 500; }
@@ -165,14 +164,18 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
 .fc-today .t-lo { color: #60a5fa; }
 .fc-tip {
     font-size: 10px;
-    line-height: 1.6;
+    line-height: 1.55;
     color: #2563eb;
     background: #eff6ff;
     border-radius: 8px;
-    padding: 7px 9px;
+    padding: 7px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
 }
 .fc-today .fc-tip { background: #1e293b; color: #7dd3fc; }
 
+/* ── Selectbox ── */
 div[data-baseweb="select"] > div {
     background: #ffffff !important;
     border: 1px solid #e2e8f0 !important;
@@ -180,6 +183,7 @@ div[data-baseweb="select"] > div {
     color: #0f172a !important;
     font-size: 14px !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
+    margin-bottom: 16px;
 }
 .stSelectbox label { display: none !important; }
 </style>
@@ -230,19 +234,17 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 
-# ── Current conditions ────────────────────────────────────
+# ── Current conditions — pure CSS grid, no st.columns ────
 st.markdown(
-    "<div class='section-heading'>Current Conditions "
-    "<span class='section-note'>— live reading right now</span></div>",
+    "<div class='section-heading'>Current Conditions"
+    "<span class='section-note'> — live reading right now</span></div>",
     unsafe_allow_html=True
 )
 
 cards_html = '<div class="city-grid">'
-
 for _, row in current_df.iterrows():
     icon, label = simplify(row["condition"])
     advice = tip(row["condition"], row["temperature"])
-
     cards_html += f"""
     <div class="city-card">
         <div class="city-card-top">
@@ -250,19 +252,19 @@ for _, row in current_df.iterrows():
             <div class="city-icon">{icon}</div>
         </div>
         <div class="city-temp">{row['temperature']}°C</div>
-        <div class="city-cond">
-            {label} · {row['humidity']}% humidity
-        </div>
+        <div class="city-cond">{label} · {row['humidity']}% humidity</div>
         <div class="city-tip">{advice}</div>
-    </div>
-    """
-
+    </div>"""
 cards_html += "</div>"
-
 st.markdown(cards_html, unsafe_allow_html=True)
 
+
 # ── 7-day forecast ────────────────────────────────────────
-st.markdown("<div class='section-heading'>7-Day Forecast <span class='section-note'>— daily high / low range</span></div>", unsafe_allow_html=True)
+st.markdown(
+    "<div class='section-heading'>7-Day Forecast"
+    "<span class='section-note'> — daily high / low range</span></div>",
+    unsafe_allow_html=True
+)
 
 selected_city = st.selectbox("City", options=sorted(current_df["city"].tolist()))
 
@@ -309,31 +311,34 @@ fig.update_layout(
 )
 st.plotly_chart(fig, use_container_width=True)
 
-# Day forecast cards
-day_cols = st.columns(7, gap="small")
-for i, (_, row) in enumerate(city_fc.iterrows()):
+# Forecast cards — pure CSS grid
+fc_html = '<div class="fc-grid">'
+for _, row in city_fc.iterrows():
     icon, label = simplify(row["condition"])
     advice = tip(row["condition"], row["temp_max"])
     is_today = row["day_name"] == today_name
     card_cls = "fc-card fc-today" if is_today else "fc-card"
-    with day_cols[i % 7]:
-        st.markdown(f"""
-        <div class="{card_cls}">
-            <div class="fc-day">{row['day_name']}</div>
-            <div class="fc-date">{row['day_date']}</div>
-            <div class="fc-ico">{icon}</div>
-            <div class="fc-cond">{label}</div>
-            <div class="fc-temps">
-                <span class="t-hi">{row['temp_max']}°</span>
-                <span class="t-lo">{row['temp_min']}°</span>
-            </div>
-            <div class="fc-tip">{advice}</div>
+    fc_html += f"""
+    <div class="{card_cls}">
+        <div class="fc-day">{row['day_name']}</div>
+        <div class="fc-date">{row['day_date']}</div>
+        <div class="fc-ico">{icon}</div>
+        <div class="fc-cond">{label}</div>
+        <div class="fc-temps">
+            <span class="t-hi">{row['temp_max']}°</span>
+            <span class="t-lo">{row['temp_min']}°</span>
         </div>
-        """, unsafe_allow_html=True)
+        <div class="fc-tip">{advice}</div>
+    </div>"""
+fc_html += "</div>"
+st.markdown(fc_html, unsafe_allow_html=True)
 
 
 # ── City comparison ───────────────────────────────────────
-st.markdown("<div class='section-heading'>Temperature Comparison — Today</div>", unsafe_allow_html=True)
+st.markdown(
+    "<div class='section-heading'>Temperature Comparison — Today</div>",
+    unsafe_allow_html=True
+)
 
 sorted_df = current_df.sort_values("temperature", ascending=True)
 fig2 = go.Figure(go.Bar(
