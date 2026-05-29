@@ -13,6 +13,7 @@ CITIES = {
     "Benin City":    {"lat": 6.3350,  "lon": 5.6270},
     "Jos":           {"lat": 9.8965,  "lon": 8.8583},
     "Maiduguri":     {"lat": 11.8333, "lon": 13.1500},
+    "Uyo":           {"lat": 5.0377, "lon": 7.9128},
 }
 
 # Maps Open-Meteo weather codes to human-readable descriptions
