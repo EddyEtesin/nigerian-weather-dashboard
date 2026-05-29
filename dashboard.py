@@ -17,7 +17,10 @@ st.markdown("""
 html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !important; }
 #MainMenu, footer, header { visibility: hidden; }
 .stApp { background: #f0f4f8; }
-.block-container { padding: 3.5rem 5rem 6rem !important; max-width: 1500px; }
+.block-container {
+    padding: 1rem 1.5rem 2rem !important;
+    max-width: 100%;
+}
 
 .pg-header {
     display: flex;
@@ -42,7 +45,7 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
     color: #94a3b8;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    margin: 44px 0 18px;
+    margin: 24px 0 12px;
 }
 .section-note {
     font-size: 11px;
@@ -57,8 +60,8 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
 /* Current city cards */
 .city-card {
     background: #ffffff;
-    border-radius: 20px;
-    padding: 28px 24px 24px;
+    border-radius: 16px;
+    padding: 18px;
     border: 1px solid #e2e8f0;
     height: 100%;
     box-sizing: border-box;
@@ -78,7 +81,7 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
 }
 .city-icon { font-size: 28px; line-height: 1; }
 .city-temp {
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 300;
     color: #0f172a;
     font-family: 'DM Mono', monospace;
@@ -89,18 +92,18 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
 .city-cond {
     font-size: 12px;
     color: #64748b;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 .city-tip {
-    font-size: 11px;
+    font-size: 10px;
     color: #2563eb;
     background: #eff6ff;
     border-radius: 10px;
-    padding: 9px 12px;
-    line-height: 1.6;
+    padding: 8px 10px;
+    line-height: 1.4;
 }
 
 /* Forecast cards */
@@ -224,7 +227,7 @@ st.markdown(f"""
 # ── Current conditions ────────────────────────────────────
 st.markdown("<div class='section-heading'>Current Conditions <span class='section-note'>— live reading right now</span></div>", unsafe_allow_html=True)
 
-cols = st.columns(6, gap="medium")
+cols = st.columns(6, gap="small")
 for i, row in current_df.iterrows():
     icon, label = simplify(row["condition"])
     advice = tip(row["condition"], row["temperature"])
