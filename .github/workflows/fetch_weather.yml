@@ -1,0 +1,38 @@
+name: Daily Weather Fetch
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Runs at 6am UTC = 7am Lagos time every day
+  workflow_dispatch:       # Also lets you trigger it manually with a button
+
+jobs:
+  fetch-weather:
+    runs-on: ubuntu-latest  # GitHub spins up a free Linux machine
+
+    steps:
+      # Step 1: Download your repo code onto the machine
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # Step 2: Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      # Step 3: Install the packages your script needs
+      - name: Install dependencies
+        run: pip install requests pandas
+
+      # Step 4: Run your weather fetcher script
+      - name: Fetch weather data
+        run: python fetch_weather.py
+
+      # Step 5: Save the new CSV files back to your repo
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add weather_current.csv weather_forecast.csv
+          git commit -m "🌤️ Auto update weather data - $(date '+%Y-%m-%d')"
+          git push
