@@ -16,79 +16,104 @@ st.markdown("""
 
 html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !important; }
 #MainMenu, footer, header { visibility: hidden; }
-.stApp { background: #f5f7fa; }
-.block-container { padding: 3rem 4rem 5rem !important; max-width: 1440px; }
+.stApp { background: #f0f4f8; }
+.block-container { padding: 3.5rem 5rem 6rem !important; max-width: 1500px; }
 
 .pg-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 36px;
+    margin-bottom: 40px;
 }
-.pg-title { font-size: 28px; font-weight: 600; color: #0f172a; letter-spacing: -0.03em; }
-.pg-updated { font-size: 12px; color: #94a3b8; font-family: 'DM Mono', monospace; }
-
+.pg-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0f172a;
+    letter-spacing: -0.03em;
+}
+.pg-updated {
+    font-size: 12px;
+    color: #94a3b8;
+    font-family: 'DM Mono', monospace;
+}
 .section-heading {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     color: #94a3b8;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    margin: 40px 0 16px;
+    margin: 44px 0 18px;
+}
+.section-note {
+    font-size: 11px;
+    color: #94a3b8;
+    font-style: italic;
+    margin-left: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
 }
 
-/* City current cards */
+/* Current city cards */
 .city-card {
     background: #ffffff;
-    border-radius: 16px;
-    padding: 22px 20px;
-    border: 1px solid #e8edf3;
-    position: relative;
+    border-radius: 20px;
+    padding: 28px 24px 24px;
+    border: 1px solid #e2e8f0;
     height: 100%;
+    box-sizing: border-box;
 }
 .city-card-top {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 14px;
+    align-items: center;
+    margin-bottom: 18px;
 }
 .city-label {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     color: #94a3b8;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-.city-icon { font-size: 26px; line-height: 1; }
+.city-icon { font-size: 28px; line-height: 1; }
 .city-temp {
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 300;
     color: #0f172a;
     font-family: 'DM Mono', monospace;
     letter-spacing: -0.04em;
     line-height: 1;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
-.city-cond { font-size: 12px; color: #64748b; margin-bottom: 14px; }
+.city-cond {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .city-tip {
     font-size: 11px;
-    color: #3b82f6;
+    color: #2563eb;
     background: #eff6ff;
-    border-radius: 8px;
-    padding: 7px 10px;
-    line-height: 1.5;
+    border-radius: 10px;
+    padding: 9px 12px;
+    line-height: 1.6;
 }
 
 /* Forecast cards */
-.fc-wrap {
+.fc-card {
     background: #ffffff;
-    border-radius: 16px;
-    border: 1px solid #e8edf3;
-    padding: 20px 18px;
+    border-radius: 18px;
+    border: 1px solid #e2e8f0;
+    padding: 22px 14px 18px;
     text-align: center;
     height: 100%;
+    box-sizing: border-box;
 }
-.fc-wrap.fc-today {
+.fc-card.fc-today {
     background: #0f172a;
     border-color: #0f172a;
 }
@@ -98,55 +123,53 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif !impor
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: #94a3b8;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
-.fc-today .fc-day { color: #64748b; }
+.fc-today .fc-day { color: #475569; }
 .fc-date {
     font-size: 11px;
     color: #cbd5e1;
     font-family: 'DM Mono', monospace;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 }
-.fc-today .fc-date { color: #475569; }
-.fc-ico { font-size: 28px; margin-bottom: 8px; }
+.fc-today .fc-date { color: #334155; }
+.fc-ico { font-size: 30px; margin-bottom: 10px; }
 .fc-cond {
     font-size: 11px;
     color: #64748b;
-    min-height: 32px;
-    line-height: 1.5;
-    margin-bottom: 10px;
+    min-height: 34px;
+    line-height: 1.6;
+    margin-bottom: 12px;
 }
 .fc-today .fc-cond { color: #64748b; }
 .fc-temps {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
     font-size: 13px;
     font-family: 'DM Mono', monospace;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
-.t-hi { color: #f97316; }
-.t-lo { color: #3b82f6; }
+.t-hi { color: #f97316; font-weight: 500; }
+.t-lo { color: #3b82f6; font-weight: 500; }
 .fc-today .t-hi { color: #fb923c; }
 .fc-today .t-lo { color: #60a5fa; }
 .fc-tip {
     font-size: 10px;
-    line-height: 1.5;
-    color: #3b82f6;
+    line-height: 1.6;
+    color: #2563eb;
     background: #eff6ff;
-    border-radius: 6px;
-    padding: 5px 8px;
+    border-radius: 8px;
+    padding: 7px 9px;
 }
-.fc-today .fc-tip {
-    background: #1e293b;
-    color: #7dd3fc;
-}
+.fc-today .fc-tip { background: #1e293b; color: #7dd3fc; }
 
 div[data-baseweb="select"] > div {
     background: #ffffff !important;
     border: 1px solid #e2e8f0 !important;
-    border-radius: 10px !important;
+    border-radius: 12px !important;
     color: #0f172a !important;
+    font-size: 14px !important;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
 .stSelectbox label { display: none !important; }
@@ -179,13 +202,13 @@ def simplify(condition: str):
 def tip(condition: str, temp: float) -> str:
     c = condition.lower()
     if "thunder" in c:   return "Stay indoors. Avoid open and elevated areas."
-    if "heavy rain" in c or "violent" in c: return "Expect flooding. Carry an umbrella and allow extra travel time."
+    if "heavy rain" in c or "violent" in c: return "Expect flooding. Allow extra travel time."
     if "rain" in c or "shower" in c or "drizzle" in c: return "Light rain likely. Keep an umbrella handy."
-    if "fog" in c:       return "Poor visibility. Drive slowly and use your headlights."
-    if temp >= 38:       return "Extreme heat. Stay hydrated and avoid direct sun."
+    if "fog" in c:       return "Poor visibility. Drive slowly."
+    if temp >= 38:       return "Extreme heat. Stay hydrated, avoid direct sun."
     if temp >= 34:       return "Hot day ahead. Drink plenty of water."
     if temp >= 30:       return "Warm conditions. Keep water close."
-    if "overcast" in c:  return "Cool and overcast. Great day to be outdoors."
+    if "overcast" in c:  return "Cool and overcast. Good day to be outdoors."
     return "Pleasant conditions today."
 
 
@@ -199,9 +222,9 @@ st.markdown(f"""
 
 
 # ── Current conditions ────────────────────────────────────
-st.markdown("<div class='section-heading'>Current Conditions</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-heading'>Current Conditions <span class='section-note'>— live reading right now</span></div>", unsafe_allow_html=True)
 
-cols = st.columns(6, gap="small")
+cols = st.columns(6, gap="medium")
 for i, row in current_df.iterrows():
     icon, label = simplify(row["condition"])
     advice = tip(row["condition"], row["temperature"])
@@ -220,7 +243,7 @@ for i, row in current_df.iterrows():
 
 
 # ── 7-day forecast ────────────────────────────────────────
-st.markdown("<div class='section-heading'>7-Day Forecast</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-heading'>7-Day Forecast <span class='section-note'>— daily high / low range</span></div>", unsafe_allow_html=True)
 
 selected_city = st.selectbox("City", options=sorted(current_df["city"].tolist()))
 
@@ -234,33 +257,33 @@ today_name = datetime.now().strftime("%a").upper()
 fig = go.Figure()
 fig.add_trace(go.Scatter(
     x=city_fc["day_name"], y=city_fc["temp_max"],
-    name="High", mode="lines+markers",
-    line=dict(color="#f97316", width=2),
-    marker=dict(size=6, color="#f97316", line=dict(width=2, color="#fff")),
+    name="Daily High", mode="lines+markers",
+    line=dict(color="#f97316", width=2.5),
+    marker=dict(size=7, color="#f97316", line=dict(width=2, color="#fff")),
 ))
 fig.add_trace(go.Scatter(
     x=city_fc["day_name"], y=city_fc["temp_min"],
-    name="Low", mode="lines+markers",
-    line=dict(color="#3b82f6", width=2),
-    marker=dict(size=6, color="#3b82f6", line=dict(width=2, color="#fff")),
+    name="Daily Low", mode="lines+markers",
+    line=dict(color="#3b82f6", width=2.5),
+    marker=dict(size=7, color="#3b82f6", line=dict(width=2, color="#fff")),
     fill="tonexty",
-    fillcolor="rgba(59,130,246,0.06)"
+    fillcolor="rgba(59,130,246,0.05)"
 ))
 fig.update_layout(
     paper_bgcolor="rgba(0,0,0,0)",
     plot_bgcolor="rgba(0,0,0,0)",
-    font=dict(family="Plus Jakarta Sans", color="#94a3b8", size=11),
-    margin=dict(l=0, r=0, t=16, b=0),
-    height=200,
+    font=dict(family="Plus Jakarta Sans", color="#94a3b8", size=12),
+    margin=dict(l=0, r=0, t=20, b=0),
+    height=220,
     legend=dict(
-        orientation="h", y=1.15, x=1, xanchor="right",
+        orientation="h", y=1.18, x=1, xanchor="right",
         font=dict(size=11, color="#94a3b8"),
         bgcolor="rgba(0,0,0,0)"
     ),
-    xaxis=dict(showgrid=False, zeroline=False, tickfont=dict(color="#94a3b8")),
+    xaxis=dict(showgrid=False, zeroline=False, tickfont=dict(color="#94a3b8", size=11)),
     yaxis=dict(
-        showgrid=True, gridcolor="#f1f5f9",
-        zeroline=False, tickfont=dict(color="#94a3b8", family="DM Mono"),
+        showgrid=True, gridcolor="#f1f5f9", gridwidth=1,
+        zeroline=False, tickfont=dict(color="#94a3b8", family="DM Mono", size=11),
         ticksuffix="°"
     ),
     hovermode="x unified",
@@ -273,7 +296,7 @@ for i, (_, row) in enumerate(city_fc.iterrows()):
     icon, label = simplify(row["condition"])
     advice = tip(row["condition"], row["temp_max"])
     is_today = row["day_name"] == today_name
-    card_cls = "fc-wrap fc-today" if is_today else "fc-wrap"
+    card_cls = "fc-card fc-today" if is_today else "fc-card"
     with day_cols[i % 7]:
         st.markdown(f"""
         <div class="{card_cls}">
@@ -316,7 +339,7 @@ fig2.update_layout(
     xaxis=dict(
         showgrid=True, gridcolor="#f1f5f9",
         zeroline=False, tickfont=dict(color="#94a3b8", family="DM Mono"),
-        ticksuffix="°", range=[20, max(sorted_df["temperature"]) + 5]
+        ticksuffix="°", range=[15, max(sorted_df["temperature"]) + 5]
     ),
     yaxis=dict(showgrid=False, zeroline=False, tickfont=dict(color="#64748b")),
 )
