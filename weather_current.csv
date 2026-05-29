@@ -1,0 +1,11 @@
+city,date,time,temperature,humidity,wind_speed,precipitation,condition
+Lagos,2026-05-29,17:23,28.4,82,10.3,0.0,Overcast ☁️
+Abuja,2026-05-29,17:23,27.8,77,4.0,0.0,Thunderstorm ⛈️
+Kano,2026-05-29,17:23,37.8,21,5.3,0.0,Overcast ☁️
+Port Harcourt,2026-05-29,17:23,28.3,82,6.3,0.0,Overcast ☁️
+Ibadan,2026-05-29,17:23,28.5,80,9.1,0.0,Thunderstorm ⛈️
+Enugu,2026-05-29,17:23,27.6,84,12.0,0.0,Overcast ☁️
+Kaduna,2026-05-29,17:23,25.4,85,7.1,0.0,Overcast ☁️
+Benin City,2026-05-29,17:23,28.4,82,9.6,0.0,Overcast ☁️
+Jos,2026-05-29,17:23,25.9,59,4.6,0.0,Partly Cloudy ⛅
+Maiduguri,2026-05-29,17:23,33.5,44,11.4,0.0,Partly Cloudy ⛅
