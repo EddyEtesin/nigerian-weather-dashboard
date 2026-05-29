@@ -237,7 +237,7 @@ st.markdown(f"""
 # ── Current conditions — pure CSS grid, no st.columns ────
 st.markdown(
     "<div class='section-heading'>Current Conditions"
-    "<span class='section-note'> — live reading right now</span></div>",
+    "<span class='section-note'> — live weather</span></div>",
     unsafe_allow_html=True
 )
 
