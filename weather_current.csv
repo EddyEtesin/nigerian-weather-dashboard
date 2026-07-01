@@ -1,12 +1,12 @@
 city,date,time,temperature,humidity,wind_speed,precipitation,condition
-Lagos,2026-06-30,09:47,26.9,81,1.8,0.1,Light Drizzle 🌦️
-Abuja,2026-06-30,09:47,24.7,85,6.0,0.1,Light Drizzle 🌦️
-Kano,2026-06-30,09:47,28.0,68,10.4,0.0,Partly Cloudy ⛅
-Port Harcourt,2026-06-30,09:47,27.8,73,5.3,0.0,Partly Cloudy ⛅
-Ibadan,2026-06-30,09:47,26.5,82,6.7,0.0,Overcast ☁️
-Enugu,2026-06-30,09:48,28.0,73,8.5,0.0,Overcast ☁️
-Kaduna,2026-06-30,09:48,26.0,74,6.0,0.0,Overcast ☁️
-Benin City,2026-06-30,09:48,27.1,81,1.3,0.0,Overcast ☁️
-Jos,2026-06-30,09:48,22.8,81,6.6,0.2,Thunderstorm ⛈️
-Maiduguri,2026-06-30,09:48,27.2,76,14.2,0.0,Overcast ☁️
-Uyo,2026-06-30,09:48,27.6,76,4.2,0.0,Overcast ☁️
+Lagos,2026-07-01,09:57,27.3,81,5.6,0.1,Light Drizzle 🌦️
+Abuja,2026-07-01,09:57,25.8,79,7.4,0.0,Overcast ☁️
+Kano,2026-07-01,09:57,29.5,64,7.7,0.0,Mainly Clear 🌤️
+Port Harcourt,2026-07-01,09:57,27.7,74,5.6,0.0,Overcast ☁️
+Ibadan,2026-07-01,09:57,27.4,74,5.8,0.1,Light Drizzle 🌦️
+Enugu,2026-07-01,09:57,28.2,72,7.0,0.0,Mainly Clear 🌤️
+Kaduna,2026-07-01,09:57,27.9,67,10.1,0.0,Mainly Clear 🌤️
+Benin City,2026-07-01,09:57,27.5,81,8.2,0.1,Light Drizzle 🌦️
+Jos,2026-07-01,09:57,24.3,67,3.0,0.0,Partly Cloudy ⛅
+Maiduguri,2026-07-01,09:57,31.7,54,11.9,0.0,Clear Sky ☀️
+Uyo,2026-07-01,09:57,27.9,73,5.3,0.1,Light Drizzle 🌦️
