@@ -1,78 +1,78 @@
 city,forecast_date,temp_max,temp_min,precipitation,wind_speed,condition
-Lagos,2026-07-01,28.2,24.5,7.4,14.3,Thunderstorm ⛈️
-Lagos,2026-07-02,28.3,24.6,3.5,15.5,Moderate Drizzle 🌦️
-Lagos,2026-07-03,27.8,24.2,6.9,14.3,Dense Drizzle 🌧️
-Lagos,2026-07-04,27.3,24.0,8.4,13.5,Slight Showers 🌦️
-Lagos,2026-07-05,27.9,25.1,2.1,15.2,Light Drizzle 🌦️
-Lagos,2026-07-06,28.0,25.0,1.8,14.5,Light Drizzle 🌦️
-Lagos,2026-07-07,28.2,25.2,3.6,10.8,Light Drizzle 🌦️
-Abuja,2026-07-01,28.7,21.5,18.2,12.1,Unknown 🌡️
-Abuja,2026-07-02,28.3,21.3,14.2,13.4,Unknown 🌡️
-Abuja,2026-07-03,29.2,21.0,1.9,8.8,Moderate Drizzle 🌦️
-Abuja,2026-07-04,28.1,22.1,4.2,11.9,Thunderstorm ⛈️
-Abuja,2026-07-05,28.3,21.5,2.8,10.2,Moderate Drizzle 🌦️
-Abuja,2026-07-06,28.0,21.8,3.1,11.2,Light Drizzle 🌦️
-Abuja,2026-07-07,27.8,21.4,8.4,7.0,Thunderstorm ⛈️
-Kano,2026-07-01,32.5,23.0,0.0,11.8,Overcast ☁️
-Kano,2026-07-02,32.5,22.0,3.7,17.7,Thunderstorm ⛈️
-Kano,2026-07-03,33.7,23.6,1.1,17.6,Thunderstorm ⛈️
-Kano,2026-07-04,33.7,22.7,0.3,14.7,Thunderstorm ⛈️
-Kano,2026-07-05,33.2,24.3,0.4,14.8,Thunderstorm ⛈️
-Kano,2026-07-06,34.0,24.5,1.5,16.4,Thunderstorm ⛈️
-Kano,2026-07-07,33.7,24.7,0.6,11.0,Thunderstorm ⛈️
-Port Harcourt,2026-07-01,29.9,23.7,7.5,13.7,Slight Showers 🌦️
-Port Harcourt,2026-07-02,29.8,23.5,13.0,12.3,Thunderstorm ⛈️
-Port Harcourt,2026-07-03,27.0,22.8,12.8,11.6,Moderate Showers 🌧️
-Port Harcourt,2026-07-04,28.3,24.0,4.4,12.3,Dense Drizzle 🌧️
-Port Harcourt,2026-07-05,28.6,23.7,5.7,8.7,Slight Showers 🌦️
-Port Harcourt,2026-07-06,29.2,23.8,9.0,7.2,Thunderstorm ⛈️
-Port Harcourt,2026-07-07,29.8,24.1,6.4,7.3,Moderate Drizzle 🌦️
-Ibadan,2026-07-01,29.0,22.4,10.6,9.8,Thunderstorm ⛈️
-Ibadan,2026-07-02,28.9,22.9,9.6,10.1,Thunderstorm ⛈️
-Ibadan,2026-07-03,28.1,23.3,7.6,12.8,Thunderstorm ⛈️
-Ibadan,2026-07-04,29.4,22.9,3.6,10.8,Thunderstorm ⛈️
-Ibadan,2026-07-05,29.6,23.7,5.1,10.1,Thunderstorm ⛈️
-Ibadan,2026-07-06,27.1,23.6,2.7,10.9,Light Drizzle 🌦️
-Ibadan,2026-07-07,29.4,22.8,2.4,7.1,Light Drizzle 🌦️
-Enugu,2026-07-01,29.7,23.1,18.0,9.8,Thunderstorm ⛈️
-Enugu,2026-07-02,30.4,22.9,13.1,12.5,Thunderstorm ⛈️
-Enugu,2026-07-03,29.8,22.7,6.3,12.2,Thunderstorm ⛈️
-Enugu,2026-07-04,31.0,23.2,6.9,12.6,Thunderstorm ⛈️
-Enugu,2026-07-05,30.4,23.5,6.6,10.6,Thunderstorm ⛈️
-Enugu,2026-07-06,28.0,23.6,3.6,8.9,Moderate Drizzle 🌦️
-Enugu,2026-07-07,30.5,23.4,12.2,6.8,Thunderstorm ⛈️
-Kaduna,2026-07-01,29.8,22.0,8.9,11.5,Unknown 🌡️
-Kaduna,2026-07-02,28.8,21.0,4.3,11.8,Thunderstorm ⛈️
-Kaduna,2026-07-03,30.3,20.9,0.8,21.7,Light Drizzle 🌦️
-Kaduna,2026-07-04,28.3,21.3,4.7,13.8,Thunderstorm ⛈️
-Kaduna,2026-07-05,28.9,22.2,0.3,12.7,Light Drizzle 🌦️
-Kaduna,2026-07-06,29.2,22.5,1.2,15.8,Light Drizzle 🌦️
-Kaduna,2026-07-07,28.5,22.2,1.8,11.1,Light Drizzle 🌦️
-Benin City,2026-07-01,28.9,23.0,23.8,9.1,Thunderstorm ⛈️
-Benin City,2026-07-02,29.4,23.5,13.8,15.3,Thunderstorm ⛈️
-Benin City,2026-07-03,28.3,23.2,5.8,10.4,Slight Showers 🌦️
-Benin City,2026-07-04,29.5,23.7,6.6,9.7,Thunderstorm ⛈️
-Benin City,2026-07-05,28.7,23.9,10.2,10.7,Thunderstorm ⛈️
-Benin City,2026-07-06,28.2,23.9,3.9,8.9,Thunderstorm ⛈️
-Benin City,2026-07-07,28.8,23.3,5.4,6.1,Thunderstorm ⛈️
-Jos,2026-07-01,27.2,17.8,8.8,13.6,Thunderstorm ⛈️
-Jos,2026-07-02,27.3,17.5,11.8,17.7,Unknown 🌡️
-Jos,2026-07-03,28.4,19.0,0.1,12.1,Light Drizzle 🌦️
-Jos,2026-07-04,28.7,19.0,3.2,15.4,Unknown 🌡️
-Jos,2026-07-05,26.5,18.5,9.0,11.8,Unknown 🌡️
-Jos,2026-07-06,26.5,19.5,2.7,15.0,Thunderstorm ⛈️
-Jos,2026-07-07,26.5,18.6,13.2,9.3,Unknown 🌡️
-Maiduguri,2026-07-01,34.4,24.1,6.6,25.0,Unknown 🌡️
-Maiduguri,2026-07-02,34.2,24.0,0.1,13.4,Thunderstorm ⛈️
-Maiduguri,2026-07-03,35.9,24.4,0.4,16.5,Light Drizzle 🌦️
-Maiduguri,2026-07-04,36.2,26.8,0.2,16.7,Light Drizzle 🌦️
-Maiduguri,2026-07-05,35.8,26.9,0.6,17.4,Thunderstorm ⛈️
-Maiduguri,2026-07-06,36.0,26.7,0.0,16.2,Thunderstorm ⛈️
-Maiduguri,2026-07-07,33.1,22.9,6.0,15.3,Moderate Drizzle 🌦️
-Uyo,2026-07-01,28.7,22.8,8.4,9.7,Thunderstorm ⛈️
-Uyo,2026-07-02,29.0,22.9,7.3,15.0,Slight Showers 🌦️
-Uyo,2026-07-03,27.8,22.7,12.0,16.3,Slight Showers 🌦️
-Uyo,2026-07-04,28.8,23.9,9.3,12.1,Thunderstorm ⛈️
-Uyo,2026-07-05,29.4,23.4,5.1,8.9,Thunderstorm ⛈️
-Uyo,2026-07-06,29.3,23.6,9.3,8.9,Thunderstorm ⛈️
-Uyo,2026-07-07,29.4,23.6,10.2,8.5,Moderate Drizzle 🌦️
+Lagos,2026-07-02,28.3,24.9,10.5,14.9,Thunderstorm ⛈️
+Lagos,2026-07-03,28.3,24.6,1.3,16.7,Light Drizzle 🌦️
+Lagos,2026-07-04,27.9,24.7,3.6,13.7,Dense Drizzle 🌧️
+Lagos,2026-07-05,28.0,24.7,2.6,14.5,Dense Drizzle 🌧️
+Lagos,2026-07-06,27.7,24.8,8.6,13.1,Slight Showers 🌦️
+Lagos,2026-07-07,28.3,25.1,3.9,11.5,Dense Drizzle 🌧️
+Lagos,2026-07-08,27.6,25.5,8.2,11.1,Moderate Drizzle 🌦️
+Abuja,2026-07-02,29.5,22.5,10.1,14.8,Thunderstorm ⛈️
+Abuja,2026-07-03,28.4,21.2,2.0,10.4,Moderate Drizzle 🌦️
+Abuja,2026-07-04,28.5,21.8,0.7,11.7,Light Drizzle 🌦️
+Abuja,2026-07-05,27.9,21.3,3.7,11.0,Slight Showers 🌦️
+Abuja,2026-07-06,28.9,21.7,2.4,11.2,Light Drizzle 🌦️
+Abuja,2026-07-07,29.1,21.8,3.0,8.6,Moderate Drizzle 🌦️
+Abuja,2026-07-08,28.8,22.4,14.6,6.1,Unknown 🌡️
+Kano,2026-07-02,33.4,23.5,0.2,13.6,Thunderstorm ⛈️
+Kano,2026-07-03,33.3,22.1,11.0,29.0,Unknown 🌡️
+Kano,2026-07-04,32.6,23.0,4.2,16.5,Thunderstorm ⛈️
+Kano,2026-07-05,32.8,23.4,3.1,15.6,Moderate Showers 🌧️
+Kano,2026-07-06,31.5,22.8,6.9,18.4,Unknown 🌡️
+Kano,2026-07-07,32.6,24.6,0.3,14.3,Light Drizzle 🌦️
+Kano,2026-07-08,34.0,24.7,2.8,10.3,Thunderstorm ⛈️
+Port Harcourt,2026-07-02,29.1,24.6,6.0,10.5,Slight Showers 🌦️
+Port Harcourt,2026-07-03,27.1,23.8,19.6,12.8,Thunderstorm ⛈️
+Port Harcourt,2026-07-04,29.7,24.5,6.2,9.9,Moderate Drizzle 🌦️
+Port Harcourt,2026-07-05,29.6,24.2,5.8,11.7,Thunderstorm ⛈️
+Port Harcourt,2026-07-06,29.0,23.2,2.1,9.4,Moderate Drizzle 🌦️
+Port Harcourt,2026-07-07,30.6,24.5,5.1,9.2,Dense Drizzle 🌧️
+Port Harcourt,2026-07-08,31.0,24.4,7.6,7.9,Thunderstorm ⛈️
+Ibadan,2026-07-02,28.7,23.4,10.0,11.1,Thunderstorm ⛈️
+Ibadan,2026-07-03,29.2,23.2,9.6,12.4,Unknown 🌡️
+Ibadan,2026-07-04,28.8,23.6,3.5,12.2,Thunderstorm ⛈️
+Ibadan,2026-07-05,29.6,23.6,2.0,11.1,Thunderstorm ⛈️
+Ibadan,2026-07-06,27.8,23.7,4.2,12.6,Thunderstorm ⛈️
+Ibadan,2026-07-07,28.4,22.9,1.8,8.7,Light Drizzle 🌦️
+Ibadan,2026-07-08,29.6,24.0,6.6,8.2,Thunderstorm ⛈️
+Enugu,2026-07-02,30.3,23.5,12.3,7.8,Thunderstorm ⛈️
+Enugu,2026-07-03,30.5,23.4,4.8,12.0,Moderate Drizzle 🌦️
+Enugu,2026-07-04,31.0,23.6,6.7,13.2,Moderate Showers 🌧️
+Enugu,2026-07-05,30.0,23.6,4.6,11.0,Thunderstorm ⛈️
+Enugu,2026-07-06,29.3,23.5,5.4,9.8,Thunderstorm ⛈️
+Enugu,2026-07-07,30.6,23.4,2.7,9.9,Moderate Drizzle 🌦️
+Enugu,2026-07-08,30.8,23.7,18.8,10.7,Thunderstorm ⛈️
+Kaduna,2026-07-02,30.3,22.6,10.6,9.3,Unknown 🌡️
+Kaduna,2026-07-03,29.3,20.7,5.7,12.3,Thunderstorm ⛈️
+Kaduna,2026-07-04,29.4,22.3,0.7,14.1,Moderate Drizzle 🌦️
+Kaduna,2026-07-05,29.1,22.1,0.1,14.0,Light Drizzle 🌦️
+Kaduna,2026-07-06,29.1,22.3,1.2,16.2,Light Drizzle 🌦️
+Kaduna,2026-07-07,30.0,22.4,0.6,14.5,Light Drizzle 🌦️
+Kaduna,2026-07-08,30.3,22.3,1.2,10.3,Light Drizzle 🌦️
+Benin City,2026-07-02,28.6,23.7,8.8,10.3,Thunderstorm ⛈️
+Benin City,2026-07-03,29.2,23.4,11.9,10.3,Thunderstorm ⛈️
+Benin City,2026-07-04,29.3,24.0,4.0,12.0,Dense Drizzle 🌧️
+Benin City,2026-07-05,29.5,24.0,6.5,11.1,Thunderstorm ⛈️
+Benin City,2026-07-06,29.0,23.8,4.5,13.7,Thunderstorm ⛈️
+Benin City,2026-07-07,29.2,24.3,4.8,9.1,Thunderstorm ⛈️
+Benin City,2026-07-08,29.9,24.4,4.6,8.7,Thunderstorm ⛈️
+Jos,2026-07-02,27.5,18.1,3.4,12.1,Thunderstorm ⛈️
+Jos,2026-07-03,28.5,18.0,6.3,8.6,Moderate Showers 🌧️
+Jos,2026-07-04,27.7,18.4,7.8,12.4,Thunderstorm ⛈️
+Jos,2026-07-05,26.5,18.6,5.8,13.1,Thunderstorm ⛈️
+Jos,2026-07-06,26.4,19.1,2.7,15.4,Thunderstorm ⛈️
+Jos,2026-07-07,26.1,18.9,6.9,10.8,Thunderstorm ⛈️
+Jos,2026-07-08,26.9,18.6,7.0,9.7,Thunderstorm ⛈️
+Maiduguri,2026-07-02,37.1,26.1,1.9,17.2,Slight Showers 🌦️
+Maiduguri,2026-07-03,36.6,25.0,0.5,16.8,Moderate Drizzle 🌦️
+Maiduguri,2026-07-04,36.6,25.8,0.0,15.9,Mainly Clear 🌤️
+Maiduguri,2026-07-05,35.7,27.0,0.3,17.8,Light Drizzle 🌦️
+Maiduguri,2026-07-06,36.3,26.7,0.3,16.2,Light Drizzle 🌦️
+Maiduguri,2026-07-07,36.7,26.1,3.9,16.0,Thunderstorm ⛈️
+Maiduguri,2026-07-08,34.9,26.3,3.0,14.6,Unknown 🌡️
+Uyo,2026-07-02,28.9,23.7,4.7,13.3,Slight Showers 🌦️
+Uyo,2026-07-03,28.7,23.3,5.8,14.5,Slight Showers 🌦️
+Uyo,2026-07-04,29.5,24.1,8.0,14.2,Thunderstorm ⛈️
+Uyo,2026-07-05,29.0,23.8,6.6,11.6,Thunderstorm ⛈️
+Uyo,2026-07-06,29.3,23.3,1.8,13.1,Light Drizzle 🌦️
+Uyo,2026-07-07,30.1,23.8,8.7,9.0,Thunderstorm ⛈️
+Uyo,2026-07-08,29.8,24.2,3.0,10.7,Light Drizzle 🌦️
