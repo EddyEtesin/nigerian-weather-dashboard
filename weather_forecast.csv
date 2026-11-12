@@ -1,78 +1,78 @@
 city,forecast_date,temp_max,temp_min,precipitation,wind_speed,condition
-Lagos,2026-11-11,30.3,24.9,0.0,12.3,Overcast ☁️
-Lagos,2026-11-12,29.0,26.3,3.6,10.6,Slight Showers 🌦️
-Lagos,2026-11-13,29.7,25.9,1.6,10.3,Light Drizzle 🌦️
-Lagos,2026-11-14,29.9,25.5,0.6,10.0,Light Drizzle 🌦️
-Lagos,2026-11-15,29.7,24.3,3.3,8.9,Moderate Drizzle 🌦️
-Lagos,2026-11-16,30.1,26.0,1.2,9.5,Light Drizzle 🌦️
-Lagos,2026-11-17,31.0,25.9,0.0,9.1,Clear Sky ☀️
-Abuja,2026-11-11,33.5,21.5,0.0,9.4,Overcast ☁️
-Abuja,2026-11-12,32.0,23.9,0.0,10.8,Overcast ☁️
-Abuja,2026-11-13,32.1,22.9,0.0,9.1,Overcast ☁️
-Abuja,2026-11-14,31.7,23.7,0.0,13.1,Mainly Clear 🌤️
-Abuja,2026-11-15,33.1,23.1,0.0,8.0,Clear Sky ☀️
-Abuja,2026-11-16,34.4,23.3,0.0,5.9,Clear Sky ☀️
-Abuja,2026-11-17,34.3,23.2,0.0,5.4,Clear Sky ☀️
-Kano,2026-11-11,35.4,23.7,0.0,14.4,Overcast ☁️
-Kano,2026-11-12,33.5,21.5,0.0,12.1,Partly Cloudy ⛅
-Kano,2026-11-13,32.0,20.0,0.0,12.9,Partly Cloudy ⛅
-Kano,2026-11-14,31.9,19.0,0.0,13.4,Clear Sky ☀️
-Kano,2026-11-15,33.0,19.5,0.0,12.2,Clear Sky ☀️
-Kano,2026-11-16,33.6,20.3,0.0,12.9,Clear Sky ☀️
-Kano,2026-11-17,33.2,20.0,0.0,11.3,Clear Sky ☀️
-Port Harcourt,2026-11-11,32.1,23.8,0.4,11.5,Light Drizzle 🌦️
-Port Harcourt,2026-11-12,31.2,24.3,4.5,9.4,Slight Showers 🌦️
-Port Harcourt,2026-11-13,31.5,23.7,2.5,12.3,Dense Drizzle 🌧️
-Port Harcourt,2026-11-14,31.8,23.9,0.5,9.4,Light Drizzle 🌦️
-Port Harcourt,2026-11-15,32.0,24.4,1.2,8.8,Light Drizzle 🌦️
-Port Harcourt,2026-11-16,32.4,24.7,2.7,8.5,Light Drizzle 🌦️
-Port Harcourt,2026-11-17,32.2,24.4,0.0,11.0,Clear Sky ☀️
-Ibadan,2026-11-11,31.3,22.1,0.0,12.7,Overcast ☁️
-Ibadan,2026-11-12,30.7,23.1,1.2,10.9,Moderate Drizzle 🌦️
-Ibadan,2026-11-13,30.3,22.9,1.1,10.3,Light Drizzle 🌦️
-Ibadan,2026-11-14,31.5,23.2,0.2,9.0,Light Drizzle 🌦️
-Ibadan,2026-11-15,30.6,23.5,1.8,7.9,Light Drizzle 🌦️
-Ibadan,2026-11-16,32.1,23.1,0.0,9.8,Foggy 🌫️
-Ibadan,2026-11-17,32.4,23.4,0.0,8.0,Overcast ☁️
-Enugu,2026-11-11,32.5,21.8,0.0,8.1,Overcast ☁️
-Enugu,2026-11-12,32.5,23.6,0.4,13.2,Light Drizzle 🌦️
-Enugu,2026-11-13,31.4,22.3,1.0,9.7,Light Drizzle 🌦️
-Enugu,2026-11-14,32.2,22.5,0.4,10.1,Light Drizzle 🌦️
-Enugu,2026-11-15,32.8,22.3,0.0,7.7,Mainly Clear 🌤️
-Enugu,2026-11-16,33.5,23.6,0.0,9.5,Foggy 🌫️
-Enugu,2026-11-17,33.8,23.2,0.0,8.4,Foggy 🌫️
-Kaduna,2026-11-11,33.7,20.8,0.0,15.0,Overcast ☁️
-Kaduna,2026-11-12,33.3,19.9,0.0,11.6,Partly Cloudy ⛅
-Kaduna,2026-11-13,32.2,18.2,0.0,12.0,Overcast ☁️
-Kaduna,2026-11-14,31.5,18.0,0.0,16.1,Clear Sky ☀️
-Kaduna,2026-11-15,32.5,18.1,0.0,13.2,Clear Sky ☀️
-Kaduna,2026-11-16,33.3,18.6,0.0,13.6,Clear Sky ☀️
-Kaduna,2026-11-17,33.1,18.1,0.0,13.5,Clear Sky ☀️
-Benin City,2026-11-11,30.3,22.7,0.0,10.3,Overcast ☁️
-Benin City,2026-11-12,31.1,23.9,1.3,14.0,Moderate Drizzle 🌦️
-Benin City,2026-11-13,31.2,23.7,0.7,8.6,Light Drizzle 🌦️
-Benin City,2026-11-14,31.3,22.8,2.6,9.8,Light Drizzle 🌦️
-Benin City,2026-11-15,32.3,23.8,0.5,8.7,Light Drizzle 🌦️
-Benin City,2026-11-16,32.4,23.8,0.0,11.4,Overcast ☁️
-Benin City,2026-11-17,32.8,24.2,0.0,12.5,Overcast ☁️
-Jos,2026-11-11,29.2,20.1,0.0,24.7,Overcast ☁️
-Jos,2026-11-12,28.9,19.0,0.0,16.2,Mainly Clear 🌤️
-Jos,2026-11-13,28.7,16.9,0.0,9.6,Overcast ☁️
-Jos,2026-11-14,28.0,17.4,0.0,15.1,Clear Sky ☀️
-Jos,2026-11-15,29.7,18.1,0.0,14.1,Clear Sky ☀️
-Jos,2026-11-16,30.3,19.0,0.0,15.9,Clear Sky ☀️
-Jos,2026-11-17,30.2,18.4,0.0,13.7,Clear Sky ☀️
-Maiduguri,2026-11-11,35.0,22.7,0.0,16.7,Overcast ☁️
-Maiduguri,2026-11-12,33.4,20.3,0.0,11.9,Overcast ☁️
-Maiduguri,2026-11-13,32.6,18.7,0.0,13.3,Overcast ☁️
-Maiduguri,2026-11-14,33.6,18.3,0.0,12.8,Clear Sky ☀️
-Maiduguri,2026-11-15,35.3,19.5,0.0,13.2,Clear Sky ☀️
-Maiduguri,2026-11-16,35.2,20.0,0.0,12.6,Clear Sky ☀️
-Maiduguri,2026-11-17,34.6,19.7,0.0,12.2,Clear Sky ☀️
-Uyo,2026-11-11,31.4,22.6,0.0,10.6,Overcast ☁️
-Uyo,2026-11-12,30.0,23.9,1.9,10.3,Moderate Drizzle 🌦️
-Uyo,2026-11-13,31.1,22.4,1.8,10.4,Moderate Drizzle 🌦️
-Uyo,2026-11-14,31.6,23.0,1.2,9.3,Moderate Drizzle 🌦️
-Uyo,2026-11-15,31.4,23.6,1.2,8.6,Light Drizzle 🌦️
-Uyo,2026-11-16,31.7,23.6,1.5,13.8,Light Drizzle 🌦️
-Uyo,2026-11-17,32.3,23.3,0.0,13.8,Overcast ☁️
+Lagos,2026-11-12,29.5,26.3,5.5,10.7,Slight Showers 🌦️
+Lagos,2026-11-13,29.5,25.7,2.3,11.2,Moderate Drizzle 🌦️
+Lagos,2026-11-14,29.7,25.2,2.9,9.1,Dense Drizzle 🌧️
+Lagos,2026-11-15,29.9,26.0,3.9,8.3,Slight Showers 🌦️
+Lagos,2026-11-16,30.3,25.8,2.1,10.5,Light Drizzle 🌦️
+Lagos,2026-11-17,30.9,25.8,0.6,10.1,Light Drizzle 🌦️
+Lagos,2026-11-18,30.8,26.1,0.0,8.8,Mainly Clear 🌤️
+Abuja,2026-11-12,33.4,24.9,0.0,12.0,Mainly Clear 🌤️
+Abuja,2026-11-13,31.0,21.8,0.0,8.5,Overcast ☁️
+Abuja,2026-11-14,31.5,23.5,0.0,11.8,Mainly Clear 🌤️
+Abuja,2026-11-15,33.0,23.9,0.0,9.4,Clear Sky ☀️
+Abuja,2026-11-16,34.0,24.0,0.0,8.2,Clear Sky ☀️
+Abuja,2026-11-17,33.3,22.4,0.0,8.3,Clear Sky ☀️
+Abuja,2026-11-18,33.5,24.1,0.0,12.9,Clear Sky ☀️
+Kano,2026-11-12,33.4,21.7,0.0,12.0,Overcast ☁️
+Kano,2026-11-13,31.9,19.4,0.0,12.2,Overcast ☁️
+Kano,2026-11-14,31.9,18.9,0.0,13.9,Clear Sky ☀️
+Kano,2026-11-15,33.2,19.7,0.0,12.4,Clear Sky ☀️
+Kano,2026-11-16,33.5,20.3,0.0,12.9,Clear Sky ☀️
+Kano,2026-11-17,32.7,19.5,0.0,12.5,Clear Sky ☀️
+Kano,2026-11-18,32.8,19.3,0.0,12.9,Clear Sky ☀️
+Port Harcourt,2026-11-12,31.1,24.7,3.5,12.1,Slight Showers 🌦️
+Port Harcourt,2026-11-13,31.8,23.8,1.5,12.2,Moderate Drizzle 🌦️
+Port Harcourt,2026-11-14,31.5,23.7,2.9,10.2,Slight Showers 🌦️
+Port Harcourt,2026-11-15,32.1,24.4,1.3,11.2,Moderate Drizzle 🌦️
+Port Harcourt,2026-11-16,32.5,24.5,1.5,8.7,Light Drizzle 🌦️
+Port Harcourt,2026-11-17,32.5,24.5,0.0,10.7,Mainly Clear 🌤️
+Port Harcourt,2026-11-18,32.6,24.6,0.0,12.1,Partly Cloudy ⛅
+Ibadan,2026-11-12,30.4,23.9,0.9,15.3,Moderate Drizzle 🌦️
+Ibadan,2026-11-13,30.6,22.9,1.1,12.2,Light Drizzle 🌦️
+Ibadan,2026-11-14,32.0,22.7,0.2,9.7,Light Drizzle 🌦️
+Ibadan,2026-11-15,32.1,23.7,1.4,12.6,Moderate Drizzle 🌦️
+Ibadan,2026-11-16,32.4,23.4,0.0,10.0,Overcast ☁️
+Ibadan,2026-11-17,32.6,24.2,0.0,9.0,Overcast ☁️
+Ibadan,2026-11-18,33.5,24.0,0.0,9.7,Overcast ☁️
+Enugu,2026-11-12,31.7,23.5,0.6,15.3,Light Drizzle 🌦️
+Enugu,2026-11-13,31.6,22.8,0.8,9.6,Light Drizzle 🌦️
+Enugu,2026-11-14,32.1,22.4,0.6,7.6,Light Drizzle 🌦️
+Enugu,2026-11-15,32.8,22.6,0.0,8.1,Foggy 🌫️
+Enugu,2026-11-16,33.5,23.6,0.0,8.9,Foggy 🌫️
+Enugu,2026-11-17,33.8,23.2,0.0,10.4,Overcast ☁️
+Enugu,2026-11-18,34.2,23.2,0.0,10.6,Partly Cloudy ⛅
+Kaduna,2026-11-12,33.4,19.9,0.0,12.6,Overcast ☁️
+Kaduna,2026-11-13,32.0,18.3,0.0,11.2,Overcast ☁️
+Kaduna,2026-11-14,31.3,17.6,0.0,15.5,Clear Sky ☀️
+Kaduna,2026-11-15,32.6,18.1,0.0,14.4,Clear Sky ☀️
+Kaduna,2026-11-16,33.0,18.5,0.0,13.9,Clear Sky ☀️
+Kaduna,2026-11-17,32.7,18.8,0.0,14.5,Clear Sky ☀️
+Kaduna,2026-11-18,32.7,18.2,0.0,14.6,Clear Sky ☀️
+Benin City,2026-11-12,31.5,24.2,1.9,11.7,Moderate Drizzle 🌦️
+Benin City,2026-11-13,31.4,23.0,1.4,9.6,Moderate Drizzle 🌦️
+Benin City,2026-11-14,31.6,23.2,1.3,5.9,Light Drizzle 🌦️
+Benin City,2026-11-15,32.0,23.6,0.2,11.5,Light Drizzle 🌦️
+Benin City,2026-11-16,32.5,23.9,0.0,9.8,Overcast ☁️
+Benin City,2026-11-17,33.1,24.0,0.0,9.9,Partly Cloudy ⛅
+Benin City,2026-11-18,32.9,23.7,0.0,7.4,Foggy 🌫️
+Jos,2026-11-12,28.6,19.2,0.0,16.3,Overcast ☁️
+Jos,2026-11-13,28.4,16.5,0.0,11.0,Partly Cloudy ⛅
+Jos,2026-11-14,27.9,17.1,0.0,14.3,Clear Sky ☀️
+Jos,2026-11-15,29.9,18.3,0.0,13.9,Clear Sky ☀️
+Jos,2026-11-16,30.1,18.9,0.0,17.8,Clear Sky ☀️
+Jos,2026-11-17,29.8,18.3,0.0,13.5,Clear Sky ☀️
+Jos,2026-11-18,30.4,17.9,0.0,12.7,Clear Sky ☀️
+Maiduguri,2026-11-12,33.3,20.4,0.0,13.4,Overcast ☁️
+Maiduguri,2026-11-13,32.6,18.3,0.0,12.7,Clear Sky ☀️
+Maiduguri,2026-11-14,34.1,18.4,0.0,12.5,Clear Sky ☀️
+Maiduguri,2026-11-15,35.5,19.9,0.0,13.3,Clear Sky ☀️
+Maiduguri,2026-11-16,35.1,20.2,0.0,12.9,Clear Sky ☀️
+Maiduguri,2026-11-17,34.8,19.9,0.0,12.2,Clear Sky ☀️
+Maiduguri,2026-11-18,34.8,20.1,0.0,12.5,Clear Sky ☀️
+Uyo,2026-11-12,30.3,23.0,2.2,10.6,Moderate Drizzle 🌦️
+Uyo,2026-11-13,30.9,22.8,2.2,10.3,Moderate Drizzle 🌦️
+Uyo,2026-11-14,29.7,23.1,1.8,6.7,Moderate Drizzle 🌦️
+Uyo,2026-11-15,31.5,23.5,1.8,10.3,Dense Drizzle 🌧️
+Uyo,2026-11-16,32.4,23.8,2.1,11.8,Light Drizzle 🌦️
+Uyo,2026-11-17,32.1,23.3,0.3,12.0,Light Drizzle 🌦️
+Uyo,2026-11-18,32.3,23.5,0.0,11.1,Overcast ☁️
