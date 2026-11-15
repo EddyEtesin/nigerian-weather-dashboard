@@ -1,12 +1,12 @@
 city,date,time,temperature,humidity,wind_speed,precipitation,condition
-Lagos,2026-11-13,14:17,28.7,76,11.1,0.0,Overcast ☁️
-Abuja,2026-11-13,14:17,31.6,36,7.8,0.0,Overcast ☁️
-Kano,2026-11-13,14:17,31.9,14,9.3,0.0,Partly Cloudy ⛅
-Port Harcourt,2026-11-13,14:17,31.3,60,4.4,0.1,Light Drizzle 🌦️
-Ibadan,2026-11-13,14:17,29.8,65,7.0,0.1,Light Drizzle 🌦️
-Enugu,2026-11-13,14:17,31.6,53,6.4,0.0,Mainly Clear 🌤️
-Kaduna,2026-11-13,14:17,32.0,17,7.1,0.0,Clear Sky ☀️
-Benin City,2026-11-13,14:17,30.5,62,0.8,0.0,Overcast ☁️
-Jos,2026-11-13,14:17,28.2,17,7.9,0.0,Clear Sky ☀️
-Maiduguri,2026-11-13,14:17,32.8,14,4.1,0.0,Clear Sky ☀️
-Uyo,2026-11-13,14:17,30.8,59,8.2,0.1,Light Drizzle 🌦️
+Lagos,2026-11-15,13:42,29.8,72,6.0,0.5,Thunderstorm ⛈️
+Abuja,2026-11-15,13:42,33.3,23,9.1,0.0,Clear Sky ☀️
+Kano,2026-11-15,13:42,33.2,11,14.9,0.0,Overcast ☁️
+Port Harcourt,2026-11-15,13:42,32.8,60,5.7,0.0,Mainly Clear 🌤️
+Ibadan,2026-11-15,13:42,33.2,46,7.5,0.0,Clear Sky ☀️
+Enugu,2026-11-15,13:42,33.6,45,6.2,0.0,Clear Sky ☀️
+Kaduna,2026-11-15,13:42,32.8,17,15.8,0.0,Clear Sky ☀️
+Benin City,2026-11-15,13:42,33.3,50,6.2,0.0,Mainly Clear 🌤️
+Jos,2026-11-15,13:42,29.6,16,17.2,0.0,Clear Sky ☀️
+Maiduguri,2026-11-15,13:42,35.3,12,11.9,0.0,Clear Sky ☀️
+Uyo,2026-11-15,13:42,31.9,64,6.2,0.1,Light Drizzle 🌦️
