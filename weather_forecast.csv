@@ -1,78 +1,78 @@
 city,forecast_date,temp_max,temp_min,precipitation,wind_speed,condition
-Lagos,2026-11-15,30.7,26.3,2.7,10.8,Thunderstorm ⛈️
-Lagos,2026-11-16,31.1,26.0,1.3,11.8,Moderate Drizzle 🌦️
-Lagos,2026-11-17,29.7,26.3,6.4,12.0,Slight Showers 🌦️
-Lagos,2026-11-18,30.0,26.1,0.7,10.2,Light Drizzle 🌦️
-Lagos,2026-11-19,30.8,26.2,0.3,10.2,Light Drizzle 🌦️
-Lagos,2026-11-20,30.7,26.5,1.8,10.7,Light Drizzle 🌦️
-Lagos,2026-11-21,30.5,26.5,1.2,9.6,Light Drizzle 🌦️
-Abuja,2026-11-15,33.2,24.2,0.0,11.0,Clear Sky ☀️
-Abuja,2026-11-16,33.6,23.6,0.0,12.1,Clear Sky ☀️
-Abuja,2026-11-17,33.0,23.1,0.0,7.0,Clear Sky ☀️
-Abuja,2026-11-18,33.1,23.9,0.0,9.8,Partly Cloudy ⛅
-Abuja,2026-11-19,33.8,24.3,0.0,11.3,Overcast ☁️
-Abuja,2026-11-20,34.4,24.1,0.0,9.8,Mainly Clear 🌤️
-Abuja,2026-11-21,34.1,24.8,0.0,13.6,Mainly Clear 🌤️
-Kano,2026-11-15,33.3,20.2,0.0,15.6,Overcast ☁️
-Kano,2026-11-16,32.9,19.8,0.0,14.3,Overcast ☁️
-Kano,2026-11-17,32.8,19.4,0.0,14.6,Clear Sky ☀️
-Kano,2026-11-18,33.0,19.6,0.0,12.5,Clear Sky ☀️
-Kano,2026-11-19,33.0,19.7,0.0,14.0,Overcast ☁️
-Kano,2026-11-20,33.4,20.4,0.0,14.7,Overcast ☁️
-Kano,2026-11-21,33.5,20.4,0.0,14.1,Mainly Clear 🌤️
-Port Harcourt,2026-11-15,33.0,25.1,1.0,10.3,Light Drizzle 🌦️
-Port Harcourt,2026-11-16,32.7,25.1,1.8,11.7,Moderate Drizzle 🌦️
-Port Harcourt,2026-11-17,32.4,24.8,2.1,10.6,Dense Drizzle 🌧️
-Port Harcourt,2026-11-18,32.9,24.3,0.0,11.1,Mainly Clear 🌤️
-Port Harcourt,2026-11-19,33.5,25.1,0.6,11.0,Light Drizzle 🌦️
-Port Harcourt,2026-11-20,32.9,24.8,0.6,10.4,Light Drizzle 🌦️
-Port Harcourt,2026-11-21,34.0,25.1,0.6,13.2,Light Drizzle 🌦️
-Ibadan,2026-11-15,33.3,23.3,0.0,9.6,Mainly Clear 🌤️
-Ibadan,2026-11-16,32.6,23.9,0.0,11.2,Overcast ☁️
-Ibadan,2026-11-17,32.5,24.6,0.5,11.7,Light Drizzle 🌦️
-Ibadan,2026-11-18,32.6,23.3,0.1,9.2,Light Drizzle 🌦️
-Ibadan,2026-11-19,33.3,23.4,0.0,7.9,Overcast ☁️
-Ibadan,2026-11-20,33.6,24.4,0.0,12.4,Overcast ☁️
-Ibadan,2026-11-21,33.8,24.8,0.6,12.7,Light Drizzle 🌦️
-Enugu,2026-11-15,33.8,23.7,0.0,7.8,Clear Sky ☀️
-Enugu,2026-11-16,33.8,23.4,0.0,11.5,Foggy 🌫️
-Enugu,2026-11-17,33.9,24.0,0.0,10.5,Foggy 🌫️
-Enugu,2026-11-18,34.1,23.6,0.0,10.4,Foggy 🌫️
-Enugu,2026-11-19,34.5,24.1,0.0,9.4,Partly Cloudy ⛅
-Enugu,2026-11-20,34.5,23.8,0.0,9.3,Overcast ☁️
-Enugu,2026-11-21,34.6,23.1,0.0,7.5,Overcast ☁️
-Kaduna,2026-11-15,32.8,19.4,0.0,16.7,Mainly Clear 🌤️
-Kaduna,2026-11-16,32.7,19.3,0.0,19.1,Clear Sky ☀️
-Kaduna,2026-11-17,32.3,18.2,0.0,15.7,Clear Sky ☀️
-Kaduna,2026-11-18,32.7,18.4,0.0,14.6,Partly Cloudy ⛅
-Kaduna,2026-11-19,32.8,19.1,0.0,15.3,Overcast ☁️
-Kaduna,2026-11-20,33.0,19.5,0.0,14.7,Overcast ☁️
-Kaduna,2026-11-21,33.0,19.5,0.0,17.4,Clear Sky ☀️
-Benin City,2026-11-15,33.3,24.3,0.0,12.1,Mainly Clear 🌤️
-Benin City,2026-11-16,33.3,24.7,0.1,12.2,Light Drizzle 🌦️
-Benin City,2026-11-17,33.6,24.5,0.4,16.2,Light Drizzle 🌦️
-Benin City,2026-11-18,34.0,24.1,0.2,11.3,Light Drizzle 🌦️
-Benin City,2026-11-19,34.3,24.8,0.3,11.3,Light Drizzle 🌦️
-Benin City,2026-11-20,34.5,25.0,0.3,10.2,Light Drizzle 🌦️
-Benin City,2026-11-21,34.6,24.9,0.0,8.4,Overcast ☁️
-Jos,2026-11-15,29.7,19.1,0.0,18.0,Clear Sky ☀️
-Jos,2026-11-16,29.5,19.1,0.0,18.9,Clear Sky ☀️
-Jos,2026-11-17,29.3,18.6,0.0,13.6,Clear Sky ☀️
-Jos,2026-11-18,29.9,18.5,0.0,13.3,Clear Sky ☀️
-Jos,2026-11-19,30.0,18.3,0.0,14.4,Mainly Clear 🌤️
-Jos,2026-11-20,29.6,19.5,0.0,19.9,Overcast ☁️
-Jos,2026-11-21,29.7,19.0,0.0,20.4,Clear Sky ☀️
-Maiduguri,2026-11-15,35.4,20.3,0.0,13.0,Clear Sky ☀️
-Maiduguri,2026-11-16,34.5,19.5,0.0,13.4,Clear Sky ☀️
-Maiduguri,2026-11-17,34.5,19.3,0.0,12.6,Clear Sky ☀️
-Maiduguri,2026-11-18,34.8,19.7,0.0,11.4,Partly Cloudy ⛅
-Maiduguri,2026-11-19,34.8,20.4,0.0,15.1,Clear Sky ☀️
-Maiduguri,2026-11-20,35.3,20.7,0.0,15.2,Partly Cloudy ⛅
-Maiduguri,2026-11-21,34.7,20.4,0.0,14.6,Partly Cloudy ⛅
-Uyo,2026-11-15,32.2,23.9,1.1,10.8,Light Drizzle 🌦️
-Uyo,2026-11-16,32.6,24.0,1.7,12.6,Dense Drizzle 🌧️
-Uyo,2026-11-17,31.6,23.5,3.9,11.6,Slight Showers 🌦️
-Uyo,2026-11-18,32.2,23.3,0.2,12.1,Light Drizzle 🌦️
-Uyo,2026-11-19,32.8,24.1,0.9,13.4,Light Drizzle 🌦️
-Uyo,2026-11-20,32.2,24.0,1.2,15.1,Light Drizzle 🌦️
-Uyo,2026-11-21,32.2,24.2,1.2,12.8,Light Drizzle 🌦️
+Lagos,2026-11-16,31.3,26.1,0.1,12.4,Light Drizzle 🌦️
+Lagos,2026-11-17,30.3,26.8,3.8,11.5,Dense Drizzle 🌧️
+Lagos,2026-11-18,30.7,26.1,1.1,11.2,Light Drizzle 🌦️
+Lagos,2026-11-19,31.2,26.2,0.6,12.0,Light Drizzle 🌦️
+Lagos,2026-11-20,31.0,26.4,0.9,10.4,Light Drizzle 🌦️
+Lagos,2026-11-21,30.9,26.3,2.1,9.9,Moderate Drizzle 🌦️
+Lagos,2026-11-22,30.9,26.5,2.1,9.8,Light Drizzle 🌦️
+Abuja,2026-11-16,33.7,24.6,0.0,10.9,Clear Sky ☀️
+Abuja,2026-11-17,32.8,24.1,0.0,7.9,Clear Sky ☀️
+Abuja,2026-11-18,33.4,24.7,0.0,7.9,Clear Sky ☀️
+Abuja,2026-11-19,33.9,25.1,0.0,13.8,Clear Sky ☀️
+Abuja,2026-11-20,34.3,24.4,0.0,11.2,Clear Sky ☀️
+Abuja,2026-11-21,34.8,23.4,0.0,9.5,Clear Sky ☀️
+Abuja,2026-11-22,33.6,24.8,0.0,8.3,Clear Sky ☀️
+Kano,2026-11-16,33.0,20.0,0.0,13.9,Clear Sky ☀️
+Kano,2026-11-17,33.1,19.5,0.0,14.5,Clear Sky ☀️
+Kano,2026-11-18,32.9,19.4,0.0,14.7,Mainly Clear 🌤️
+Kano,2026-11-19,32.9,19.6,0.0,14.4,Overcast ☁️
+Kano,2026-11-20,33.2,20.0,0.0,14.3,Overcast ☁️
+Kano,2026-11-21,33.2,19.9,0.0,13.1,Overcast ☁️
+Kano,2026-11-22,32.5,19.8,0.0,12.8,Partly Cloudy ⛅
+Port Harcourt,2026-11-16,33.1,25.2,0.1,12.7,Light Drizzle 🌦️
+Port Harcourt,2026-11-17,31.9,23.9,4.6,13.0,Slight Showers 🌦️
+Port Harcourt,2026-11-18,32.1,24.3,0.0,10.6,Partly Cloudy ⛅
+Port Harcourt,2026-11-19,33.7,24.9,0.3,14.2,Light Drizzle 🌦️
+Port Harcourt,2026-11-20,33.1,24.9,1.2,8.8,Light Drizzle 🌦️
+Port Harcourt,2026-11-21,33.8,24.7,0.0,12.9,Mainly Clear 🌤️
+Port Harcourt,2026-11-22,33.5,25.1,0.0,10.0,Overcast ☁️
+Ibadan,2026-11-16,33.1,23.5,0.0,12.8,Partly Cloudy ⛅
+Ibadan,2026-11-17,32.6,24.5,1.0,12.8,Light Drizzle 🌦️
+Ibadan,2026-11-18,32.9,24.3,0.0,10.0,Overcast ☁️
+Ibadan,2026-11-19,33.6,23.6,0.0,10.8,Foggy 🌫️
+Ibadan,2026-11-20,33.9,24.7,0.0,12.7,Overcast ☁️
+Ibadan,2026-11-21,34.3,24.8,0.6,12.8,Light Drizzle 🌦️
+Ibadan,2026-11-22,34.2,25.1,0.0,11.7,Overcast ☁️
+Enugu,2026-11-16,33.6,23.6,0.0,11.2,Partly Cloudy ⛅
+Enugu,2026-11-17,33.8,24.2,0.3,10.4,Light Drizzle 🌦️
+Enugu,2026-11-18,33.7,23.5,0.0,10.0,Foggy 🌫️
+Enugu,2026-11-19,34.3,24.2,0.0,9.3,Partly Cloudy ⛅
+Enugu,2026-11-20,34.0,23.9,0.0,9.0,Overcast ☁️
+Enugu,2026-11-21,34.6,23.4,0.0,11.0,Partly Cloudy ⛅
+Enugu,2026-11-22,34.6,23.6,0.0,8.5,Overcast ☁️
+Kaduna,2026-11-16,33.2,20.0,0.0,17.5,Clear Sky ☀️
+Kaduna,2026-11-17,32.5,18.4,0.0,14.3,Clear Sky ☀️
+Kaduna,2026-11-18,32.4,18.6,0.0,17.2,Partly Cloudy ⛅
+Kaduna,2026-11-19,32.7,19.1,0.0,15.8,Overcast ☁️
+Kaduna,2026-11-20,32.7,19.2,0.0,14.3,Overcast ☁️
+Kaduna,2026-11-21,32.7,19.4,0.0,13.6,Clear Sky ☀️
+Kaduna,2026-11-22,32.7,18.7,0.0,14.4,Clear Sky ☀️
+Benin City,2026-11-16,33.7,24.8,0.0,11.7,Mainly Clear 🌤️
+Benin City,2026-11-17,33.9,24.8,1.1,14.8,Light Drizzle 🌦️
+Benin City,2026-11-18,33.6,24.0,0.2,11.0,Light Drizzle 🌦️
+Benin City,2026-11-19,34.3,24.9,0.1,13.0,Light Drizzle 🌦️
+Benin City,2026-11-20,34.4,25.4,0.3,9.1,Light Drizzle 🌦️
+Benin City,2026-11-21,34.9,25.1,0.0,9.8,Overcast ☁️
+Benin City,2026-11-22,34.2,25.2,0.6,12.7,Light Drizzle 🌦️
+Jos,2026-11-16,30.0,19.5,0.0,19.3,Clear Sky ☀️
+Jos,2026-11-17,29.5,19.1,0.0,15.2,Clear Sky ☀️
+Jos,2026-11-18,29.7,18.4,0.0,15.3,Clear Sky ☀️
+Jos,2026-11-19,29.9,17.8,0.0,16.6,Partly Cloudy ⛅
+Jos,2026-11-20,30.1,19.0,0.0,17.5,Mainly Clear 🌤️
+Jos,2026-11-21,30.1,19.0,0.0,18.5,Clear Sky ☀️
+Jos,2026-11-22,29.9,17.7,0.0,11.2,Clear Sky ☀️
+Maiduguri,2026-11-16,34.5,19.5,0.0,12.9,Clear Sky ☀️
+Maiduguri,2026-11-17,34.4,19.5,0.0,12.9,Clear Sky ☀️
+Maiduguri,2026-11-18,34.8,19.4,0.0,13.3,Overcast ☁️
+Maiduguri,2026-11-19,34.8,20.1,0.0,14.3,Clear Sky ☀️
+Maiduguri,2026-11-20,35.0,20.2,0.0,14.7,Mainly Clear 🌤️
+Maiduguri,2026-11-21,34.5,20.2,0.0,13.7,Clear Sky ☀️
+Maiduguri,2026-11-22,33.9,19.8,0.0,12.1,Overcast ☁️
+Uyo,2026-11-16,32.8,24.3,0.7,15.2,Moderate Drizzle 🌦️
+Uyo,2026-11-17,31.0,23.0,2.3,13.2,Moderate Drizzle 🌦️
+Uyo,2026-11-18,31.8,23.1,0.2,11.1,Light Drizzle 🌦️
+Uyo,2026-11-19,32.9,24.2,0.9,12.4,Light Drizzle 🌦️
+Uyo,2026-11-20,32.4,23.9,0.9,11.4,Light Drizzle 🌦️
+Uyo,2026-11-21,32.8,23.8,0.9,11.7,Light Drizzle 🌦️
+Uyo,2026-11-22,32.0,24.1,0.6,11.0,Light Drizzle 🌦️
